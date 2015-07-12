@@ -267,7 +267,7 @@ input.search-form:hover {
   margin-bottom: 0;
   background: #fff;
   padding: 15px 0;
-  padding-bottom: 0;
+  padding-bottom: 30px;
 }
 
  .navbar-nav{
@@ -289,7 +289,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #0f4c92;
+  background-color: #0f4c92;
   color: #fff;
 }
 
