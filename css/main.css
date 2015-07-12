@@ -293,6 +293,16 @@ input.search-form:hover {
   color: #fff;
 }
 
+.navbar-inverse .navbar-toggle {
+  background-color: #0f4c92;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #0f4c92;
+  color: #fff;
+}
+
 .navbar-inverse {
   border: none;
 }
