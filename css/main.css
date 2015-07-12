@@ -8,7 +8,7 @@
 body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
-  color:#4e4e4e;
+  color:#777;
   line-height: 22px;
 }
 
@@ -20,16 +20,17 @@ h5,
 h6 {
   font-weight: 600; 
   font-family: 'Open Sans', sans-serif;
-  color:#4e4e4e;
+  color: #0f4c92;
 }
 
 h1{
   font-size: 36px;
-  color:#fff;
+  color:#0f4c92;
 }
 
 h2{
   font-size: 20px;
+  color:#0f4c92;
 }
 
 h3{
@@ -132,6 +133,7 @@ body > section {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  color: #777;
 }
 
 .transparent-bg {
@@ -295,13 +297,17 @@ input.search-form:hover {
 
 .navbar-inverse .navbar-toggle {
   background-color: #0f4c92;
-  color: #fff;
   border-color: #0f4c92;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
-  color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #777;
+    border-color: #777;
 }
 
 .navbar-inverse {
@@ -391,6 +397,10 @@ input.search-form:hover {
   margin-top: 140px;
 }
 
+#main-slider .carousel h1 {
+  color: #fff;
+}
+
 #main-slider .carousel h2 {
   color: #fff;
 }
@@ -398,6 +408,15 @@ input.search-form:hover {
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
   background: #0f4c92;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+#main-slider .carousel .btn-slide:hover {
+  padding: 8px 20px;
+  background: #777;
   color: #fff;
   border-radius: 4px;
   margin-top: 25px;
@@ -460,7 +479,7 @@ input.search-form:hover {
 
 #main-slider .prev:hover,
 #main-slider .next:hover {
-  background-color: #000;
+  background-color: #777;
 }
 
 #main-slider .prev {
@@ -997,19 +1016,15 @@ a.accordion-toggle  i{
   font-size: 40px;
   line-height: 60px;
   color: #fff;
-  background: #000;
+  background: #0f4c92;
   text-align: center;
   border-radius: 10px;
 }
 
 .contact-info h2{
   margin-top: 0;
-  color: #000;
 }
 
-.contact-info{
-  color:#000;
-}
 
 /*************************
 ********* About Us Page CSS ******
@@ -2484,7 +2499,6 @@ shortcodes page css
   margin-bottom: 10px;
   text-transform: uppercase;
   font-size:22px;
-  color: #000;
 }
 
 #bottom ul {
