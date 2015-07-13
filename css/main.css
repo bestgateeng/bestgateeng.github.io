@@ -12,6 +12,10 @@ body {
   line-height: 22px;
 }
 
+b {
+  color: 0f4c92;
+}
+
 h1,
 h2,
 h3,
@@ -134,6 +138,13 @@ body > section {
   line-height: 24px;
   font-weight: 400;
   color: #777;
+}
+
+.lead > b{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #333;
 }
 
 .transparent-bg {
@@ -291,7 +302,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-  background-color: #0f4c92;
+  background-color: #777;
   color: #fff;
 }
 
@@ -681,29 +692,35 @@ input.search-form:hover {
   opacity: 1;
 }
 
-#services {
+
+#pro-services {
+  background: #f5f5f5;
+  font-size: 14px;
+}
+
+#capabilities {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;
 }
 
-#services .lead,
-#services h2{
+#capabilities .lead,
+#capabilities h2{
   color: #fff;
 }
 
-.services-wrap {
+.capabilities-wrap {
   padding: 40px 30px;
   background: #fff;
   border-radius: 4px;
   margin: 0 0 40px;
 }
 
-.services-wrap h3 {
+.capabilities-wrap h3 {
   font-size: 20px;
   margin: 10px 0;
 }
 
-.services-wrap .pull-left {
+.capabilities-wrap .pull-left {
   margin-right: 20px;
 }
 
@@ -857,6 +874,7 @@ input.search-form:hover {
   color:#fff;
 }
 
+/* The arrow of the unselected accordion tabs*/
 a.accordion-toggle  i{
   width: 45px;
   line-height: 44px;
@@ -864,7 +882,7 @@ a.accordion-toggle  i{
   margin-top: -10px;
   text-align: center;
   margin-right: -15px;
-  background: #d9d9d9;
+  background: #f5f5f5;
 }
 
 .panel-heading.active a.accordion-toggle i{
@@ -872,8 +890,9 @@ a.accordion-toggle  i{
   color: #fff;
 }
 
+/* The arrow of the selected accordion tab*/
 .panel-heading.active a.accordion-toggle.collapsed i{
-  background: #333;
+  background: #777;
   color: #fff;
 }
 
@@ -906,7 +925,7 @@ a.accordion-toggle  i{
 }
 
 .nav-tabs>li>a:hover{
-  background: #0f4c92;
+  background: #777;
   color:#fff;
 }
 
@@ -925,7 +944,7 @@ a.accordion-toggle  i{
   width: auto;
   height: auto;
   border-style:solid;
-  border-color: transparent transparent transparent #1f1f20;
+  border-color: transparent transparent transparent #0f4c92;
   border-width: 25px 22px;
   right: -44px;
   top:0;
