@@ -280,7 +280,7 @@ input.search-form:hover {
   margin-bottom: 0;
   background: #fff;
   padding: 15px 0;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
  .navbar-nav{
@@ -296,13 +296,14 @@ input.search-form:hover {
   padding: 5px 12px;
   margin: 0;
   border-radius: 3px;
-  color: #777;
+  color: #0f4c92;
+  background: #fff;
   line-height: 24px;
   display: inline-block;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-  background-color: #777;
+  background-color: #0f4c92;
   color: #fff;
 }
 
@@ -692,12 +693,6 @@ input.search-form:hover {
   opacity: 1;
 }
 
-
-#pro-services {
-  background: #f5f5f5;
-  font-size: 14px;
-}
-
 #capabilities {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;
@@ -997,28 +992,29 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
-#partner {
+#career {
   background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
-#partner {
-  color: #fff;
+#career {
+  color: #e7e7e7;
   text-align: center;
 }
 
-#partner h2, 
-#partner h3 {
+#career .lead, 
+#career h2, 
+#career h3 {
   color: #fff;
 }
 
-.partners ul {
+.career ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.partners ul li{
+.career ul li{
   display: inline-block;
   float: left;
   width: 20%;
@@ -1292,17 +1288,28 @@ ul.social_icons li  a i{
 }
 
 .team .social_icons .fa-facebook {
-  background: #0182c4;
+  background: #0f4c92;
 }
 
 .team .social_icons .fa-twitter {
-  background: #20B8FF
+  background: #0f4c92
 }
 
 .team .social_icons .fa-google-plus {
-  background: #D34836
+  background: #0f4c92
 }
 
+.team .social_icons .fa-github {
+  background: #0f4c92
+}
+
+.team .social_icons .fa-stack-overflow {
+  background: #0f4c92
+}
+
+.team .social_icons .fa-linkedin {
+  background: #0f4c92
+}
 
 .team-bar .first-one-arrow {
   float: left;
@@ -1337,29 +1344,29 @@ ul.social_icons li  a i{
 }
 
 .team-bar .first-one-arrow hr {
-  border-bottom: 1px solid #2D7DA4;
-  border-top: 1px solid #2D7DA4;
+  border-bottom: 1px solid #0f4c92;
+  border-top: 1px solid #0f4c92;
  }
 
 .team-bar .first-arrow hr {
-  border-bottom: 1px solid #2D7DA4;
-  border-top: 1px solid #2D7DA4;
+  border-bottom: 1px solid #0f4c92;
+  border-top: 1px solid #0f4c92;
  }
 
 .team-bar .second-arrow hr {
-  border-bottom: 1px solid #6aa42f;
-  border-top: 1px solid #6aa42f;
+  border-bottom: 1px solid #777;
+  border-top: 1px solid #777;
 }
 
 .team-bar .third-arrow hr {
-  border-bottom: 1px solid #FFBD20;
-  border-top: 1px solid #FFBD20;
+  border-bottom: 1px solid #0f4c92;
+  border-top: 1px solid #0f4c92;
 
 }
 
 .team-bar .fourth-arrow hr {
-  border-bottom: 1px solid #db3615;
-  border-top: 1px solid #db3615;
+  border-bottom: 1px solid #777;
+  border-top: 1px solid #777;
 }
 
 .team-bar {
@@ -1383,22 +1390,22 @@ ul.social_icons li  a i{
 }
 
 .team-bar .first-arrow .fa-angle-up {
-  background:#2D7DA4;
+  background:#0f4c92;
   margin-left:-33px
  }
 
 .team-bar .second-arrow .fa-angle-down {
-  background:#6AA42F;
+  background:#777;
   margin-left: -33px;
 }
 
 .team-bar .third-arrow .fa-angle-up {
-  background:#FFBD20;
+  background:#0f4c92;
   margin-left: -32px;
 }
 
 .team-bar .fourth-arrow .fa-angle-down {
-  background:#db3615;
+  background:#777;
   margin-left: -32px;
 }
 
@@ -2495,7 +2502,7 @@ shortcodes page css
 }
 
 .shortcode-item h2 {
-  color: #333;
+  color: #0f4c92;
   font-size: 24px;
   margin-bottom: 22px;
   margin-top: 0;
