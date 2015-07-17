@@ -30,6 +30,7 @@ h6 {
 h1{
   font-size: 36px;
   color:#0f4c92;
+  margin-bottom: 20px;
 }
 
 h2{
@@ -106,7 +107,7 @@ a:focus {
 }
 
 .center h2{
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -125,6 +126,11 @@ body > section {
 
 .center {
   text-align: center;
+  padding-bottom: 55px;
+}
+
+.left {
+  text-align: left;
   padding-bottom: 55px;
 }
 
@@ -324,6 +330,7 @@ input.search-form:hover {
 
 .navbar-inverse {
   border: none;
+    border-bottom: 1px solid #F1F1F1;
 }
 
 .navbar-inverse .navbar-brand {
@@ -575,6 +582,25 @@ input.search-form:hover {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
+#culture {
+  background: #0f4c92;
+  padding-bottom: 10px;
+}
+
+#culture h1 {
+    color: #fff;
+}
+
+#culture b {
+    color: #fff;
+    font-size: 22px;
+}
+
+#culture .lead,
+#culture h2{
+  color: #EEE;
+}
+
 #feature {
   background: #f2f2f2;
   padding-bottom: 40px;
@@ -699,6 +725,7 @@ input.search-form:hover {
 }
 
 #capabilities .lead,
+#capabilities h1,
 #capabilities h2{
   color: #fff;
 }
@@ -1047,7 +1074,7 @@ a.accordion-toggle  i{
 
 .about-us {
   margin-top: 110px;
-  margin-bottom: -110px;
+  margin-bottom: 110px;
 }
 
 .about-us h2, 
@@ -1980,14 +2007,14 @@ ul.social_icons li  a i{
 
 #contact-page .contact-form 
 .form-group label {
-  color: #4E4E4E;
+  color: #0f4c92;
   font-size: 16px;
   font-weight: 300;
 }
 
 .form-group .form-control {
   padding: 7px 12px;
-  border-color:#f2f2f2;
+  border-color:#e7e4dc; 
   box-shadow: none;
 }
 
