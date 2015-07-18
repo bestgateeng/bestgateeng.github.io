@@ -720,8 +720,14 @@ input.search-form:hover {
 }
 
 #capabilities {
-  background: #000 url(../images/services/bg_services.png);
-  background-size: cover;
+  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #fff;
 }
 
 #capabilities .lead,
@@ -1020,8 +1026,14 @@ a.accordion-toggle  i{
 }
 
 #career {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
-  background-size: cover;
+  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #fff;
 }
 
 #career {
