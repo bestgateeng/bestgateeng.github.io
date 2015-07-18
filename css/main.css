@@ -606,10 +606,50 @@ input.search-form:hover {
     font-size: 22px;
 }
 
-#culture .lead,
-#culture h2{
+#culture .lead {
   color: #EEE;
 }
+
+#culture h2 {
+  color: #EEE;
+  margin-top: 80px;
+}
+
+/*
+.culture-wrap h2{
+  margin-top: 10px;
+}
+*/
+
+.culture-wrap i{
+  font-size: 32px;
+  height: 75px;
+  width: 75px;
+  margin: 3px;
+  border-radius: 100%;
+  line-height: 75px;
+  text-align:center;
+  background: #ffffff;
+  color: #0f4c92;
+  border: 3px solid #ffffff;
+  box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  margin-right: 25px;
+}
+
+.culture-wrap i:hover {
+  background: #0f4c92;
+  color: #f2f2f2;
+  box-shadow: inset 0 0 0 1px #f2f2f2;
+  -webkit-box-shadow: inset 0 0 0 1px #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+
+
 
 #feature {
   background: #f2f2f2;
@@ -899,14 +939,9 @@ input.search-form:hover {
   border-radius: 0;
 }
 
-/*
-.panel-heading{
-  border-radius: 0;
-}
-*/
-
+/* Default panel background*/
 .panel-heading {
-  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
+  background: #000 url(../images/services/dark-geometry_black.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -915,8 +950,9 @@ input.search-form:hover {
   color: #fff;
 }
 
+/* The text color of the default panel*/
 .panel-title>a{
-  color: #0f4c92;
+  color: #fff;
 }
 
 .accordion-inner img{
@@ -945,7 +981,7 @@ input.search-form:hover {
 
 /* The background of the hovered panel*/
 .panel-heading:hover {
-  background: #000 url(../images/services/dark-geometry_black.png) 50% 0 fixed; 
+  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -968,8 +1004,8 @@ a.accordion-toggle  i{
   text-align: center;
   margin-right: -15px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  color: #fff;
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  color: #000;
+  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
 }
 
 /* The arrow of the active accordion tab*/
@@ -994,10 +1030,11 @@ a.accordion-toggle  i{
   text-align: center;
   margin-right: -15px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  color: #fff;
-  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
+  color: #000;
+  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
 }
 
+/* Might not be seen visually */
 .nav-tabs>li{
   margin-bottom: 0px;
   border-bottom: 1px solid #e6e6e6;
