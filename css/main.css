@@ -603,7 +603,7 @@ input.search-form:hover {
 
 #culture b {
     color: #fff;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 #culture .lead {
@@ -612,22 +612,23 @@ input.search-form:hover {
 
 #culture h2 {
   color: #EEE;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
-/*
-.culture-wrap h2{
-  margin-top: 10px;
+#culture h3 {
+  color: #EEE;
+  font-size: 24px;
+  margin-bottom: 80px;
 }
-*/
+
 
 .culture-wrap i{
-  font-size: 32px;
-  height: 75px;
-  width: 75px;
+  font-size: 48px;
+  height: 110px;
+  width: 110px;
   margin: 3px;
   border-radius: 100%;
-  line-height: 75px;
+  line-height: 110px;
   text-align:center;
   background: #ffffff;
   color: #0f4c92;
@@ -1218,15 +1219,15 @@ a.accordion-toggle  i{
   color: #fff;
 }
 
-.about-us h2, 
-.skill_text h2 {
+.about-us h3, 
+.skill_text h3 {
   color:#4e4e4e;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 20px;
 }
 
 .about-us p {
   color:#4e4e4e;
+  font-size: 20px;
 }
 
 #carousel-slider {
