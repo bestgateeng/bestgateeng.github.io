@@ -69,7 +69,7 @@ jQuery(function($) {'use strict',
 	});	
 });
 
-        $(document).ready(function(){
+$(document).ready(function(){
    // cache the window object
    $window = $(window);
  
