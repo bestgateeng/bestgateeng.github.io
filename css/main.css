@@ -209,7 +209,6 @@ body > section {
   width: 100%; 
   position: relative; 
   color: #fff;
-    
 }
 
 .top-number{
@@ -1739,22 +1738,18 @@ ul.social_icons li  a i{
   font-style: oblique;
 }
 
+.bottom-bar {
+  margin-top: 100px;
+}
+
 .footer {
-/*
-  background: none repeat scroll 0 0 #2E2E2E;
-  border-top: 5px solid #0f4c92;
-  height: 84px;
-  margin-top: 110px;
-*/
-    
   padding: 10px 0;
   background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
   position: relative; 
-  color: #fff;
-    
+  color: #fff;    
 }
 
 .footer_left {
