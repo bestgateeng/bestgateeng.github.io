@@ -596,10 +596,6 @@ input.search-form:hover {
   color: #fff;
 }
 
-#team p {
-    font-size: 16px;
-}
-
 #culture h1 {
     color: #fff;
 }
@@ -1184,8 +1180,8 @@ a.accordion-toggle  i{
   width: 20%;
 }
 
-#conatcat-info{
-  background: #fff url(../images/contact.png) no-repeat 90% 0;
+#contact-info{
+/*  background: #fff url(../images/contact.png) no-repeat 90% 0;*/
   padding: 30px 0;
 }
 
@@ -1194,7 +1190,7 @@ a.accordion-toggle  i{
   height: 60px;
   font-size: 40px;
   line-height: 60px;
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.0);
   color: #fff;
   background: #0f4c92;
   text-align: center;
