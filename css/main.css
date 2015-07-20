@@ -68,7 +68,7 @@ hr {
 
 .btn-default {
   padding: 8px 20px;
-  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_white.png) 50% 0 fixed; 
   color: #0f4c92;
   border-radius: 4px;
   border:none;
@@ -78,7 +78,7 @@ hr {
 
 .btn-default:hover, 
 .btn-default:focus{
-  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
+  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; 
   color: #fff;
   outline: none;
   box-shadow: none;
@@ -96,7 +96,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
+/*  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; */
   outline: none;
   box-shadow: none;
 } 
@@ -220,7 +220,7 @@ body > section {
 
 .top-bar {
   padding: 10px 0;
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -603,7 +603,7 @@ input.search-form:hover {
 }
 
 #mission {
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -614,7 +614,7 @@ input.search-form:hover {
 }
 
 #mission {
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -648,7 +648,7 @@ input.search-form:hover {
 }
 
 #values {
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -794,7 +794,7 @@ input.search-form:hover {
 }
 
 #capabilities {
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -954,7 +954,7 @@ input.search-form:hover {
 
 /* Default panel background*/
 .panel-heading {
-  background: #000 url(../images/services/dark-geometry_black.png) 50% 0 fixed; 
+  background: #000 url(../images/services/dark-parallax-bg_black.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -978,7 +978,7 @@ input.search-form:hover {
 
 /* The background of the active panel*/
 .panel-heading.active {
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -994,7 +994,7 @@ input.search-form:hover {
 
 /* The background of the hovered panel*/
 .panel-heading:hover {
-  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
+  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -1018,7 +1018,7 @@ a.accordion-toggle  i{
   margin-right: -15px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
   color: #000;
-  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_white.png) 50% 0 fixed; 
 }
 
 /* The arrow of the active accordion tab*/
@@ -1031,7 +1031,7 @@ a.accordion-toggle  i{
   margin-right: -15px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
   color: #0f4c92;
-  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_white.png) 50% 0 fixed; 
 }
 
 /* The arrow of the active but collapsed accordion tab*/
@@ -1044,7 +1044,7 @@ a.accordion-toggle  i{
   margin-right: -15px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
   color: #000;
-  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_white.png) 50% 0 fixed; 
 }
 
 /* Might not be seen visually */
@@ -1065,7 +1065,7 @@ a.accordion-toggle  i{
   margin-right:0;
   padding: 13px 15px;
   color: #fff;
-  background: #000 url(../images/services/dark-geometry_black.png) 50% 0 fixed; 
+  background: #000 url(../images/services/dark-parallax-bg_black.png) 50% 0 fixed; 
 }
 
 .nav-tabs li:last-child{
@@ -1083,7 +1083,7 @@ a.accordion-toggle  i{
   margin-right:0;
   padding: 13px 15px;
   color: #fff;
-  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
+  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; 
   color:#fff;
 }
 
@@ -1098,7 +1098,7 @@ a.accordion-toggle  i{
   margin-right:0;
   padding: 13px 15px;
   color: #fff;
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
 }
 
 .nav-tabs>li.active>a:after {
@@ -1161,7 +1161,7 @@ a.accordion-toggle  i{
 }
 
 #career {
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -1660,7 +1660,7 @@ ul.social_icons li  a i{
 }
 
 .get-started {
-/*  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; */
+/*  background: #000 url(../images/services/parallax-bg_white.png) 50% 0 fixed; */
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0,0,0,0.0);
   padding-bottom: 30px;
@@ -1766,7 +1766,7 @@ ul.social_icons li  a i{
 
 .footer {
   padding: 10px 0;
-  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_white.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -2752,7 +2752,7 @@ shortcodes page css
   padding-top: 30px;
   padding-bottom: 30px;
 
-  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_blue.png) 50% 0 fixed; 
 /*
   height: auto;
   margin: 0 auto; 
@@ -2782,4 +2782,20 @@ shortcodes page css
 #footer ul > li {
   display: inline-block;
   margin-left: 15px;
+}
+
+#fourZeroFour {
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #777;
+}
+
+#fourZeroFour b,
+#fourZeroFour h1,
+#fourZeroFour h2{
+  color: #0f4c92;
 }
