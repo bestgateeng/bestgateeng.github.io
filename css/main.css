@@ -78,7 +78,7 @@ hr {
 
 .btn-default:hover, 
 .btn-default:focus{
-  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_gray.png) 50% 0 fixed; 
   color: #fff;
   outline: none;
   box-shadow: none;
@@ -96,7 +96,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-/*  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; */
+/*  background: #000 url(../images/services/parallax-bg_gray.png) 50% 0 fixed; */
   outline: none;
   box-shadow: none;
 } 
@@ -954,7 +954,7 @@ input.search-form:hover {
 
 /* Default panel background*/
 .panel-heading {
-  background: #000 url(../images/services/dark-parallax-bg_black.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_black.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -994,7 +994,7 @@ input.search-form:hover {
 
 /* The background of the hovered panel*/
 .panel-heading:hover {
-  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_gray.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -1065,7 +1065,7 @@ a.accordion-toggle  i{
   margin-right:0;
   padding: 13px 15px;
   color: #fff;
-  background: #000 url(../images/services/dark-parallax-bg_black.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_black.png) 50% 0 fixed; 
 }
 
 .nav-tabs li:last-child{
@@ -1083,7 +1083,7 @@ a.accordion-toggle  i{
   margin-right:0;
   padding: 13px 15px;
   color: #fff;
-  background: #000 url(../images/services/dark-parallax-bg_gray.png) 50% 0 fixed; 
+  background: #000 url(../images/services/parallax-bg_gray.png) 50% 0 fixed; 
   color:#fff;
 }
 
