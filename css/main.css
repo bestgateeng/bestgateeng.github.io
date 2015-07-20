@@ -34,12 +34,12 @@ h1{
 }
 
 h2{
-  font-size: 20px;
+  font-size: 24px;
   color:#0f4c92;
 }
 
 h3{
-  font-size: 16px;
+  font-size: 22px;
   color: #787878;
   font-weight: 400;
   line-height: 24px;
@@ -66,6 +66,23 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
+.btn-default {
+  padding: 8px 20px;
+  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; 
+  color: #0f4c92;
+  border-radius: 4px;
+  border:none;
+  margin-top: 10px;
+}
+
+
+.btn-default:hover, 
+.btn-default:focus{
+  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+} 
 
 .btn-primary {
   padding: 8px 20px;
@@ -79,7 +96,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-  background: #0f4c92;
+  background: #000 url(../images/services/dark-geometry_gray.png) 50% 0 fixed; 
   outline: none;
   box-shadow: none;
 } 
@@ -107,7 +124,7 @@ a:focus {
 }
 
 .center h2{
-  font-size: 30px;
+  font-size: 22px;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -140,14 +157,14 @@ body > section {
 }
 
 .lead{
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   color: #777;
 }
 
 .lead > b{
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
   color: #333;
@@ -537,7 +554,7 @@ input.search-form:hover {
   height: 20px;
   background-color: #0f4c92;
    margin: 0 15px 0 0;
-   border: 1px solid #0f4c92;
+   border: 1px solid #fff;
    position: relative;
 }
 
@@ -585,69 +602,67 @@ input.search-form:hover {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
-#culture {
+#mission {
   background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
   height: auto;
   margin: 0 auto; 
   width: 100%; 
   position: relative; 
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
   padding: 100px 0;
   color: #fff;
 }
 
-#culture h1 {
-    color: #fff;
+#mission {
+  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #fff;
 }
 
-#culture b {
-    color: #fff;
-    font-size: 24px;
+#mission b,
+#mission .lead,
+#mission h1,
+#mission h2{
+  color: #fff;
 }
 
-#culture .lead {
-  color: #EEE;
-  font-size: 20px;
+#vision {
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #777;
 }
 
-#culture h2 {
-  color: #EEE;
-  margin-top: 40px;
-}
-
-#culture h3 {
-  color: #EEE;
-  font-size: 20px;
-  margin-bottom: 80px;
-}
-
-
-.culture-wrap i{
-  font-size: 48px;
-  height: 110px;
-  width: 110px;
-  margin: 3px;
-  border-radius: 100%;
-  line-height: 110px;
-  text-align:center;
-  background: #ffffff;
+#vision b,
+#vision h1,
+#vision h2{
   color: #0f4c92;
-  border: 3px solid #ffffff;
-  box-shadow: inset 0 0 0 5px #f2f2f2;
-  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
-  -webkit-transition: 500ms;
-  -moz-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-  margin-right: 25px;
 }
 
-.culture-wrap i:hover {
-  background: #0f4c92;
-  color: #f2f2f2;
-  box-shadow: inset 0 0 0 1px #f2f2f2;
-  -webkit-box-shadow: inset 0 0 0 1px #f2f2f2;
-  border: 1px solid #f2f2f2;
+#values {
+  background: #000 url(../images/services/geometry.png) 50% 0 fixed; 
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #fff;
+}
+
+#values b,
+#values .lead,
+#values h1,
+#values h2{
+  color: #fff;
 }
 
 #feature {
@@ -694,11 +709,11 @@ input.search-form:hover {
 }
 
 .feature-wrap i:hover {
-  background: #0f4c92;
-  color: #fff;
-  box-shadow: inset 0 0 0 5px #0f4c92;
-  -webkit-box-shadow: inset 0 0 0 5px #0f4c92;
-  border: 3px solid #0f4c92;
+  background: #ffffff;
+  color: #777;
+  border: 3px solid #ffffff;
+  box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
 }
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
@@ -769,7 +784,6 @@ input.search-form:hover {
 }
 
 #pro-services {
-/*  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; */
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -1162,6 +1176,7 @@ a.accordion-toggle  i{
   text-align: center;
 }
 
+#career h1,
 #career .lead, 
 #career h2, 
 #career h3 {
@@ -1207,7 +1222,6 @@ a.accordion-toggle  i{
 **************************/
 
 #about-us {
-/*  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; */
   height: auto;
   margin: 0 auto; 
   width: 100%; 
@@ -1646,8 +1660,9 @@ ul.social_icons li  a i{
 }
 
 .get-started {
-  background: none repeat scroll 0 0 #F3F3F3;
+/*  background: #000 url(../images/services/geometry_white.png) 50% 0 fixed; */
   border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.0);
   padding-bottom: 30px;
   position: relative;
   margin-bottom: 18px;
@@ -2768,9 +2783,3 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
-
-
-
-
-
-
