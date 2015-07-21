@@ -96,7 +96,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-/*  background: #000 url(../images/services/parallax-bg_gray.png) 50% 0 fixed; */
+  background: #777; 
   outline: none;
   box-shadow: none;
 } 
