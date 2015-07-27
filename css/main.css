@@ -1451,7 +1451,10 @@ ul.social_icons li  a i{
 
 .team .social_icons .fa-facebook:hover, 
 .team .social_icons .fa-twitter:hover, 
-.team .social_icons .fa-google-plus:hover {
+.team .social_icons .fa-stack-overflow:hover,
+.team .social_icons .fa-linkedin:hover {
+  color: #0f4c92;
+  background: #FFFFFF;
   transform: rotate(360deg);
   -ms-transform:rotate(360deg);
   -webkit-transform:rotate(360deg); 
@@ -1522,8 +1525,8 @@ ul.social_icons li  a i{
 }
 
 .team-bar .first-one-arrow hr {
-  border-bottom: 1px solid #0f4c92;
-  border-top: 1px solid #0f4c92;
+  border-bottom: 1px solid #777;
+  border-top: 1px solid #777;
  }
 
 .team-bar .first-arrow hr {
